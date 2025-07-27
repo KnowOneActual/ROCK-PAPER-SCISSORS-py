@@ -1,18 +1,36 @@
+# Rock, Paper, Scissors!
 
-This Python code is a simple Rock-Paper-Scissors game. The program first imports the random and sys libraries. The random library is used to generate random numbers, and the sys library is used to exit the program.
+[![Made with Python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 
-The next step is to define some variables. The wins, losses, and ties variables keep track of the number of wins, losses, and ties. The playerMove variable stores the player's move, and the computerMove variable stores the computer's move.
+Welcome to a classic game of Rock, Paper, Scissors, built with Python! This simple command-line game lets you test your luck and strategy against the computer.
 
-The next step is to create a while loop that will run forever. This loop will print the current win/loss/tie record, get the player's move, and then get the computer's move.
+## How to Play
 
-The while True: loop first prints the current win/loss/tie record. This is done by using the % operator to format the strings. The %s placeholder is replaced with the value of the wins variable, the %s placeholder is replaced with the value of the losses variable, and the %s placeholder is replaced with the value of the ties variable.
+Playing is easy!
 
-The next step is to get the player's move. This is done by using the input() function. The input() function will prompt the user to enter a move and then return the user's input as a string.
+1.  **Run the Game**: Make sure you have Python installed, then run the `rockpapersissv4.py` file from your terminal.
+    ```bash
+    python rockpapersissv4.py
+    ```
+2.  **Make Your Move**: When prompted, enter one of the following:
+    * `r` for Rock
+    * `p` for Paper
+    * `s` for Scissors
+    * `q` to Quit the game
+3.  **See the Results**: The game will show your choice, the computer's random choice, and then announce if you won, lost, or tied.
+4.  **Track Your Score**: Your wins, losses, and ties are kept track of throughout the game, so you can see your ongoing record.
 
-The next step is to get the computer's move. This is done by using the random.randint() function. The random.randint() function generates a random number between 1 and 3. The number 1 represents rock, the number 2 represents paper, and the number 3 represents scissors.
+## Game Features
 
-The next step is to display the results of the game. This is done by checking if the player's move and the computer's move are the same. If they are, the game is a tie. If the player's move beats the computer's move, the player wins. If the computer's move beats the player's move, the computer wins.
+* **Simple Interface**: Play directly in your terminal.
+* **Score Tracking**: Keeps count of your wins, losses, and ties for bragging rights.
+* **Random Computer Opponent**: The computer makes its moves using a random selection, ensuring a different challenge each time.
+* **Clear Outcomes**: Each round clearly displays the outcome.
 
-The final step is to update the win/loss/tie records. This is done by adding 1 to the appropriate variable.
+## Technologies Used
 
-The program ends when the user enters the q character to quit.
+This game is developed using:
+
+* Python
+
+Enjoy the game!
